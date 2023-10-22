@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div id="firstcontainer" class="container-fluid border mt-1 p-3">
+      <style>
+        #firstcontainer
+        {
+          box-shadow: 0px 0px 20px #97959529;
+        }
+      </style>
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+          <img src="Group 3.jpg" alt="logo" class="logo" />
+          <p class="text-right">
+            Already Registered?
+            <a href="https://www.google.com" style="color: #3a89d6"
+              >Login here</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-4">
+      <div class="row">
+       
+        <div id="col1" class="col-md-4 p-4 border shadowed-column">
+          <style>
+            #col1
+              {
+                height: 350px;
+              background: #ffffff 0% 0% no-repeat padding-box;
+              border: 1px  solid #f0f0f0;
+              border-radius: 10px;
+              opacity: 1;
+              }
+          </style>
+          <style>
+            .box
+            {
+            
+            top: 134px;
+            left: 124px;
+            width: 309px;
+            height: 59px;
+            
+            opacity: 1;
+              
+            border-bottom: 1px solid #ccc; 
+            padding: 8px; 
+          }
+          </style>
+          <div id="basic-det">
+            
+            </div>
+          <div class="box" style="color: black;">Basic Details</div>
+          <div class="box">Verification center</div>
+          <div class="box">Professional Details</div>
+          <div class="box">Employment Details</div>
+          <div class="box">Job Preference</div>
+        
+        </div>
+        <div class="col">
+          <div id="col2" class="container-md create-account">
+            <style>
+              #col2{
+                
+                background: #ffffff 0% 0% no-repeat padding-box;
+                box-shadow: 0px 0px 50px #97959529;
+                border: 1px solid #eeeeee;
+                
+                border-radius: 20px;
+                
+                opacity: 1;
+              }
+            </style>
+            <div id="create-acc2" class="container-sm">
+            <h5 class="mt-4 ml-">Create an Account</h5>
+            <div class="social-login p-1">
+              <button id="button1" class="btn btn-light ml-2 mr-3" style="background-color: white; border-color: #E6E6E6 ">Facebook</button>
+              <button class="btn btn-light ml-3" style="background-color: white; border-color:#E6E6E6" >Google</button>
+            </div>
+            <form id="signup" class="container-md" action="" method="">
+              <div id="signup">
+                <!-- <style>
+                  #signup{
+                    width: 500px:
+                  }
+                </style> -->
+                
+                <label for="name">Full Name*</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-control"
+                  required
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div id="signup" class="form-group">
+                <label for="email">Email Address*</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-control"
+                  required
+                  placeholder="Enter your Email ID"
+                />
+              </div>
+              <div id="signup" class="form-group">
+                <label for="password">Password*</label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  class="form-control"
+                  required
+                  placeholder="Minimum 6 characters"
+                />
+              </div>
+              <div id="signup" class="form-group">
+                <label for="phone_number">Phone number*</label>
+                <input
+                  type="text"
+                  id="phone_number"
+                  name="phone_number"
+                  class="form-control"
+                  required 
+                  placeholder="Mobile number"
+                />
+              </div>
+              <div id="signup" class="form-group">
+                <div>Gender*</div>
+                <label class="radio-label">
+                  <input type="radio" name="gender" value="male" />
+                  Male
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="gender" value="female" />
+                  Female
+                </label>
+                <label class="radio-label">
+                  <input type="radio" name="gender" value="other" />
+                  Other
+                </label>
+              </div>
+              <div id="signup" class="form-group">
+                <label for="resume">Upload Resume</label>
+                <div class="custom-file">
+                  <input type="file" id="resume" name="resume" class="custom-file-input" style="cursor: pointer; opacity: 0;">
+                  <label class="custom-file-label" for="resume" style="background-color: #FC427B; color: white; cursor: pointer;">Upload Resume</label>
+                </div>
+                <div class="form-group mt-3">
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="ok"
+                      name="ok"
+                      value="true"
+                      />
+                    <label class="form-check-label" for="ok">Contact me via WhatsApp</label><br>
+                    <button type="submit" class="btn btn-primary">Continue</button>
+                  </div>
+                </div>
+              </div>
+              
+              </div>
+              
+              </div>
+              
+              </div>
+              
+              
+            </form>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
