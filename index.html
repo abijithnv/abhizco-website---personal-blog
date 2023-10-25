@@ -17,7 +17,7 @@
           box-shadow: 0px 0px 20px #97959529;
         }
       </style>
-      <div class="container">
+      <div class="container-sm">
         <div class="d-flex justify-content-between align-items-center">
           <img src="Group 3.jpg" alt="logo" class="logo" />
           <p class="text-right">
@@ -84,15 +84,15 @@
 
             
             </style>
-            <div id="create-acc2" class="container-sm">
-            <h5 class="mt-4 ml-" style="color: #141414; font-size: 26px; font: Golos Text, SemiBold " >&nbsp; <b>Create an Account</b></h5>
-            <div class="social-login p-1">
-              <button  class="btn btn-light col-md-3" style="font: Golos Text, SemiBold; background-color: white;  border-color: #E6E6E6 ">
-                <img id="fb" src="facebook.png" alt="Facebook Logo">
+            <div id="create-acc2" class="container-sm"></div>
+            <h5 class="mt-4 " style="color: #141414; font-size: 26px; font: Golos Text, SemiBold " >&nbsp; <b>Create an Account</b></h5>
+            <div class="social-login mt-3">
+              <button  class="btn btn-light col-mr-3" style="font: Golos Text, SemiBold; background-color: white;  border-color: #E6E6E6 ">
+                <img id="fb" src="facebook1.png" alt="Facebook Logo">
                 Facebook
               </button>
               
-              <button class="btn btn-light col-md-3" style="background-color: white; border-color:#E6E6E6">
+              <button  class="btn btn-light " style="background-color: white; border-color:#E6E6E6 ">
                 <img id="gg" src="google.png" alt="Google Logo">
                 Google
               </button>
@@ -100,22 +100,29 @@
             
             <style>
               .social-login button {
-                display: flex;
-                align-items: center;
-                margin-bottom: 10px;
-                box-shadow: 0px 0px 10px #97959529;
+                
+                height: 44px;
+                width: 213px;
+                margin-right: 15px;
+                margin-top: 5px;
+                
+                
               }
-                          
+                      
               .social-login #fb {
                 width: 28px; /* Adjust width as needed */
                 height: 28px; /* Adjust height as needed */
-                margin-right: 10px; /* Adjust margin as needed */
+                
+                align-items: center;
               }
               .social-login #gg {
                 
                 width: 42px; /* Adjust width as needed */
-                height: auto; /* Adjust height as needed */
-                margin-right: 10px; /* Adjust margin as needed */
+                height: auto;
+                
+                
+                
+                
               }
             </style>
             
@@ -182,11 +189,11 @@
                 </label>
                 <label class="radio-label">
                   <input type="radio" name="gender" value="other" />
-                  Other
+                  Prefer not to say
                 </label>
               </div>
               <div id="signup" class="form-group">
-                <label id="resume">Upload Resume</label>
+                <label id="resume">Resume</label>
                 <style>
                   .custom-file-label{
                     width: 236px;
@@ -215,17 +222,27 @@
                         margin-right: 10px; /* Adjust margin as needed */
                       }
                     </style>
-                    <button type="submit" class="btn btn-primary">Continue</button>
-                  </div>
+                   
                 </div>
               </div>
               
               </div>
+               <button id="continue" type="submit" class="btn btn-primary">
+                <div>Continue</div>
+              <style>
+                #continue{
+              top: 1125px;
+              left: 521px;
+              width: 300px;
+              height: 55px;
+                }
+              </style>
+              </button>
+              </div>
+             
+            </div>
               
               </div>
-              
-              </div>
-              
               
             </form>
           </div>
