@@ -1,3 +1,35 @@
+#create-acc2
+{
+  /* Layout Properties */
+
+top: 143px;
+left: 763px;
+width: 229px;
+height: 31px;
+
+/* UI Properties */
+
+text-align: center;
+font: normal normal 600 26px/31px Golos Text;
+letter-spacing: 0px;
+color: #333333;
+opacity: 1;
+}
+.logo
+{
+  top: 15px;
+left: 52px;
+width: 166px;
+height: 40px;
+
+/* UI Properties */
+
+background: transparent url('img/Group 3.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+
+
+
 #username {
   margin-top: 15px;
 }
@@ -30,6 +62,28 @@
   border-radius: 10px;
   opacity: 1;
 }
+#col1 #basicTic
+{
+
+width: 40px;
+height: 40px;
+
+background: #398AD6 0% 0% no-repeat padding-box;
+opacity: 1;
+border-radius: 20px;
+}
+#col1 #basicTic img{
+/* Layout Properties */
+
+width: 21px;
+height: 15px;
+
+/* UI Properties */
+
+background: #398AD6;
+opacity: 1;
+}
+
 
 .box {
   top: 134px;
@@ -52,6 +106,22 @@
 
   opacity: 1;
 }
+#col2 button
+{
+  left: 710px;
+  background-color: white;
+  border-color:#E6E6E6;
+
+top: 202px;
+left: 887px;
+width: 213px;
+height: 44px;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 0px 8px #ADADAD29;
+border-radius: 6px;
+opacity: 1;
+}
 
 .social-login button {
   left: 100px;
@@ -65,14 +135,28 @@
 }
 
 .social-login #fb {
-  width: 28px; /* Adjust width as needed */
-  height: 28px; /* Adjust height as needed */
+  top: 212px;
+  left: 951px;
+  width: 25px;
+  height: 25px;
 
-  align-items: center;
+  /* UI Properties */
+
+  background: transparent url("img/Group 3133.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 .social-login #gg {
-  width: 42px; /* Adjust width as needed */
-  height: auto;
+  /* Layout Properties */
+
+  top: 212px;
+  left: 951px;
+  width: 25px;
+  height: 25px;
+
+  /* UI Properties */
+
+  background: transparent url("img/Group 3133.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 
 .custom-file-label {
@@ -80,10 +164,34 @@
   align-items: center;
 }
 
-#whatsapp {
-  width: 28px; /* Adjust width as needed */
-  height: 28px; /* Adjust height as needed */
-  margin-right: 10px; /* Adjust margin as needed */
+img {
+  /* Layout Properties */
+
+  top: 1214px;
+  left: 790px;
+  width: 19px;
+  height: 19px;
+
+  /* UI Properties */
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+#Sendme {
+  /* Layout Properties */
+
+  top: 1213px;
+  left: 549px;
+  width: 344px;
+  height: 20px;
+
+  /* UI Properties */
+
+  text-align: left;
+  font: normal normal medium 16px/10px Golos Text;
+  letter-spacing: 0px;
+  color: #394649;
+  opacity: 1;
 }
 
 #continue {
