@@ -79,8 +79,22 @@ padding: 8px;
     
     width: 42px; /* Adjust width as needed */
     height: auto;
-    
-    
-    
-    
   }
+
+  .custom-file-label{
+    width: 236px;
+    align-items: center;
+  }
+
+  #whatsapp{
+    width: 28px; /* Adjust width as needed */
+    height: 28px; /* Adjust height as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+
+  #continue{
+    top: 1125px;
+    left: 521px;
+    width: 300px;
+    height: 55px;
+      }
